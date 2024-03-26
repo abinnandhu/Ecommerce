@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/login.css">
+</head>
+<body>
+<form>
+<div class="account">
+    <header>
+        <div class="navbar">
+            <div class="logo">
+            <img src="../Asset/images/logo.png" class="logo" width="125px" height="50px">
+            </div>
+        <nav>
+        <ul>
+            <li class="content"><a href="../index.html">Home</a></li>
+            <li class="content"><a href="../pages/product.html">Product</a></li>
+            <li class="content"><a href="">About</a></li>
+            <li class="content"><a href="">Contact</a></li>
+            <li class="content"><a href="../pages/login.html">Account</a></li> 
+            <li class="content"><a href="../pages/cart.html"><img src="../Asset/images/cart.png" height="18px" width="18px"></a></li>
+        </ul>
+        </nav>
+        </div> 
+    </header>
+    <main>
+        <div class="loginmain">
+            <div class="square">
+            <img class="fb" src="../Asset/images/image1.png" height="500" width="600">
+            <div class="enter">
+                <div class="switch">
+                    <div id="btn">
+                    <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                    <button type="button" class="toggle-btn" onclick="register()">Register</button>
+                </div>
+                </div>
+                <form id="login" class="input-group">
+                    <input type="text" class="entry1" placeholder="Username" required>
+                    <input type="password" class="entry2" placeholder="Password" required>
+                    <button type="submit" class="login-btn">Login</button>
+                    <a href="./index.html"><span class="forgot">Forgot Password</span></a>
+                </form>
+                <form id="register" class="input-group">
+                    <input type="text" class="entry1" placeholder="Username" required>
+                    <input type="email" class="entry1" placeholder="Email" required>
+                    <input type="password" class="entry1" placeholder="Password" required>
+                    <button type="submit" class="login-btn">Register</button>
+                </form>
+            </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="foot">
+            <div class="container">
+                <div class="box">
+                    <h3 class="da">Download Our App</h3>
+                    <p class="p">Download App For Android and ios mobile phone.</p>
+                    <img class="app" src="../Asset/images/play-store.png" height="40px" width="80px">
+                    <img class="app" src="../Asset/images/app-store.png" height="40px" width="80px">
+                </div>
+                <div class="box">                        
+                    <img class="white" src="../Asset/images/logo-white.png" height="40px" width="150px">
+                    <p class="p">Our Purpose is To Sustainably Make the Pleasure and<br>Benefits of Sports Accessible to the Many</p>
+                </div>
+                <div class="box">
+                    <h3 class="h">Useful Links</h3>
+                    <ul>
+                        <li class="lis">Coupons</li>
+                        <li class="lis">Blog Post</li>
+                        <li class="lis">Return Policy</li>
+                        <li class="lis">Join Afflicate</li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3 class="h">Follow us</h3>
+                    <ul>
+                        <li class="lis">Facebook</li>
+                        <li class="lis">twitter</li>
+                        <li class="lis">Instagram</li>
+                        <li class="lis">YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <diV class="line">
+            </diV>
+            <div class="copy"><p class="pr">Copyright 2020- Easy Tutorials</p></div>
+        </div>
+    </footer>
+</div>
+</form> 
+<script>
+    var x = document.getElementById("login");
+    var y = document.getElementById("register");
+    var z = document.getElementById("btn");
+    
+    function register(){
+        x.style.left="-400px"
+        y.style.left="50px"
+        z.style.left="110px"
+    }
+    function login(){
+        x.style.left="50px"
+        y.style.left="450px"
+        z.style.left="0px"
+    }
+</script>
+</body>
+</html>

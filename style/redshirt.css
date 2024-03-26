@@ -1,0 +1,187 @@
+body{
+   
+    font-family: 'poppins', sans-serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x:none;
+}
+.red{
+    background-color:white;
+    height: auto;
+}
+.logo{
+    margin-left: 20px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    
+
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display:inline-block ;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.foot{
+    background-color: black;
+    height: auto;
+    
+}
+.box{
+    margin: 60px;
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    
+}
+.box .p{
+    color: white;
+    opacity: 0.3;
+}
+.box .h{
+    color: white;
+    margin-bottom: 30px;
+}
+.box .lis{
+    list-style-type: none;
+    color: white;
+    opacity:0.3;
+}
+.box .white{
+    margin-bottom: 40px;
+}
+.box .app{
+    margin-top: 10px;
+    position: relative;
+    right: 92px;
+    opacity: 0.5;
+}
+.box .app:hover{
+    opacity: 1;
+}
+.box .da{
+    color: white;
+    position: relative;
+    right: 92px;
+    margin-bottom: 30px;
+}
+.line{
+    height: 2px;
+    width: 1350px;
+    background-color: white;
+    position: absolute;
+    left:50% ;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.pr{
+    color: white;
+    opacity: 0.3;
+    text-align: center;
+    margin-top: 20px;
+}
+.ifr{
+    display: flex; 
+    margin-left: 5px;   
+    
+}
+iframe{
+    border: none;
+}
+.pic{
+    margin-left: 150px;
+    display: flex;    
+}
+.right{
+    margin: 15px;
+    /* margin-left: %; */
+}
+.pro{
+    margin-top: 30px;
+}
+.money{
+    margin-top: 25px;
+}
+.item{
+    background-color: white;
+    border-color: orangered;
+    height: 35px;
+    margin-top: 25px;
+}
+.quntity{
+    background-color: white;
+    border-color: orangered;
+    height: 35px;
+    width: 45px;
+    margin-top: 25px;
+}
+.menu{
+    margin-left: 200px;
+    position: relative;
+    bottom: 19px;
+}
+.btn{
+    display: inline;
+    background-color: orange;
+    color: white;
+    padding: 8px 40px;
+    position: relative;
+    top: 2px;
+    left: 25px;
+    border-radius: 20px;
+    
+}
+.btn:hover{
+    background-color: orangered;
+}
+.row{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 30px;
+}
+.im{
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+    
+}
+.im:hover{
+    transform: scale(1.1);
+}
+.row .im{
+    margin: 20px;
+}
+.Product{
+    margin-left: 20px;
+}
+.name{
+    margin-left: 25px;
+}
+.star{
+    color: yellow;
+    margin-left: 25px;
+}
+.price{
+    margin-left: 25px;
+}
+

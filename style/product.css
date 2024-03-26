@@ -1,0 +1,174 @@
+body{
+   
+    font-family: 'poppins', sans-serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.product{
+    background-color:white;
+    height: 300vh;
+}
+.logo{
+    margin-left: 20px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    
+
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display:inline-block ;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+p{
+    color: black;
+}
+
+.head{
+    
+    padding-left:140px ;    
+}
+.all{
+    position: relative;
+    top: 35px;
+    left: 19px;
+}
+.choose{
+    position: relative;
+    left: 80%;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border:2px solid orangered;
+}
+
+.row{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 30px;
+}
+.im{
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+    
+}
+.im:hover{
+    transform: scale(1.1);
+}
+.row .im{
+    margin: 20px;
+}
+.Product{
+    margin-left: 20px;
+}
+.name{
+    margin-left: 25px;
+}
+.star{
+    color: yellow;
+    margin-left: 25px;
+}
+.price{
+    margin-left: 25px;
+}
+.pageno{
+    margin: 0 auto 80px;
+    margin-left: 150px;
+    
+}
+.pageno span{
+    display: inline-block;
+    border: 1px solid orangered;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.pageno span:hover{
+    background-color: orangered;
+    color: white;
+}
+.foot{
+    background-color: black;
+    height: auto;
+    
+}
+.box{
+    margin: 60px;
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    
+}
+.box .p{
+    color: white;
+    opacity: 0.3;
+}
+.box .h{
+    color: white;
+    margin-bottom: 30px;
+}
+.box .lis{
+    list-style-type: none;
+    color: white;
+    opacity:0.3;
+}
+.box .white{
+    margin-bottom: 40px;
+}
+.box .app{
+    margin-top: 10px;
+    position: relative;
+    right: 92px;
+    opacity: 0.5;
+}
+.box .app:hover{
+    opacity: 1;
+}
+.box .da{
+    color: white;
+    position: relative;
+    right: 92px;
+    margin-bottom: 30px;
+}
+.line{
+    height: 2px;
+    width: 1350px;
+    background-color: white;
+    position: absolute;
+    left:50% ;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.pr{
+    color: white;
+    opacity: 0.3;
+    text-align: center;
+    margin-top: 20px;
+}
