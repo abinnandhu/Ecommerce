@@ -7,10 +7,13 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+   
 }
 .product{
     background-color:white;
-    height: 300vh;
+    height: 305vh;
+    overflow:hidden;
 }
 .logo{
     margin-left: 20px;
@@ -18,7 +21,7 @@ body{
 .navbar{
     display: flex;
     align-items: center;
-    padding: 50px;
+    padding: 30px;
     
 
 
